@@ -1,0 +1,36 @@
+# Maven build directory
+/target/
+
+# Maven Wrapper files
+.mvn/
+/mvnw
+/mvnw.cmd
+
+# IntelliJ IDEA project files
+.idea/
+*.iml
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log
+
+# Dropwizard's default log directory (if applicable)
+logs/
+
+# Temporary files
+*.swp
+*~
+
+# Coverage files (if using JaCoCo or similar tools)
+*.exec
+
+# Build artifacts (additional generated files)
+*.jar
+*.war
+*.ear
+
+# .env file (if used for environment variables)
+.env
