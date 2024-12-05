@@ -3,3 +3,9 @@ logging:
   level: INFO
   loggers:
     com.example: DEBUG
+database:
+  driverClass: org.mariadb.jdbc.Driver
+  user: root
+  password: root
+  url: jdbc:mariadb://localhost:3360/todo
+  maxSize: 5
