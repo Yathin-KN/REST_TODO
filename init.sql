@@ -1,0 +1,11 @@
+CREATE DATABASE IF NOT EXISTS todos;
+
+USE todos;
+
+CREATE TABLE IF NOT EXISTS todos (
+    id BIGINT AUTO_INCREMENT PRIMARY KEY,
+    description VARCHAR(255) NOT NULL,
+    start_date DATE NOT NULL,
+    end_date DATE NOT NULL,
+    status ENUM('TODO', 'WIP', 'DONE') NOT NULL DEFAULT 'TODO'
+);
